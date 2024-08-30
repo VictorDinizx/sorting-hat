@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="/styles/estilo.css">
+</head>
+<body>
+    <header>
+         <h1>Qual seria a sua casa em Hogwarts</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                O que você prefere:
+                <input type="radio" name="radcasa" id="dia" checked>
+                <label for="dia">Dia</label>
+                <input type="radio" name="radcasa" id="noite">
+                <label for="noite">Noite</label>
+            </p>
+            <p>
+                Qual das opções abaixo você mais odeia que as pessoas te chamem?<br />
+                <input type="radio" name="radodeia" id="Ignorante" checked>
+                <label for="Ignorante">Ignorante</label>
+                <input type="radio" name="radodeia" id="Egoista">
+                <label for="Egoista">Egoista</label>
+                <input type="radio" name="radodeia" id="Ordinario">
+                <label for="Ordinario">Ordinario</label>
+                <input type="radio" name="radodeia" id="Covarde">
+                <label for="Covarde">Covarde</label>
+            </p>
+            <p>
+                Se você fosse pra Hogwarts, qual pet você levaria?<br />
+                <input type="radio" name="radpet" id="Gato" checked>
+                <label for="Gato">Gato</label>
+                <input type="radio" name="radpet" id="Sapo">
+                <label for="Sapo">Sapo</label>
+                <input type="radio" name="radpet" id="Coruja">
+                <label for="Coruja">Coruja</label>
+                <input type="radio" name="radpet" id="Cobra">
+                <label for="Cobra">Cobra</label>
+            </p>
+            <p>
+                Qual a cor do pet que você levaria?<br />
+                <input type="radio" name="radcor" id="Preto" checked>
+                <label for="Preto">Preto</label>
+                <input type="radio" name="radcor" id="Branco">
+                <label for="Branco">Branco</label>
+                <input type="radio" name="radcor" id="Marrom">
+                <label for="Marrom">Marrom</label>
+                <input type="radio" name="radcor" id="Cinza">
+                <label for="Cinza">Cinza</label>
+            </p>
+            <p>
+                O que você acha mais dificil de lidar?<br />
+                <input type="radio" name="radlidar" id="Solidao" checked>
+                <label for="Solidao">Solidão</label>
+                <input type="radio" name="radlidar" id="Tedio">
+                <label for="Tedio">Tédio</label>
+                <input type="radio" name="radlidar" id="Fome">
+                <label for="Fome">Fome</label>
+                <input type="radio" name="radlidar" id="Ignorado">
+                <label for="Ignorado">Ser Ignorado</label>
+            </p>
+            <p>
+                Última pergunta, com qual destes sentimentos você se identifica mais?<br />
+                <input type="radio" name="radfeel" id="Ousadia" checked>
+                <label for="Ousadia">Ousadia</label>
+                <input type="radio" name="radfeel" id="Curiosidade">
+                <label for="Curiosidade">Curiosidade</label>
+                <input type="radio" name="radfeel" id="Lealdade">
+                <label for="Lealdade">Lealdade</label>
+                <input type="radio" name="radfeel" id="Ambição">
+                <label for="Ambição">Ambição</label>
+            </p>
+            <p>
+                <input type="button" value="Descubra sua Casa!" onclick="verificar()">
+            </p>
+
+
+             
+        </div>
+        <div id="res">
+            <strong>O Chapéu Seletor aguarda suas respostas!</strong>
+            
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Victor Diniz</p>
+    </footer>
+    <script src="/scripts/script.js"></script>
+    
+</body>
+</html>
